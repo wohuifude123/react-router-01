@@ -19,9 +19,7 @@ class MessageContainer extends React.Component {
         console.log(ImagesConfig.image01.url)
         //var image01 = ImagesConfig.image01.url;
 
-        var icon01 = ImagesConfig.custom ?
-            require('../../../../public/imagesConfig/custom/slide1.jpg') :
-            require('../../../../public/imagesConfig/default/slide1.jpg') ;
+        var icon01 = ImagesConfig.image01.url
 
 
         return (

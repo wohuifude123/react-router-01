@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Message } from './Message'
+
 
 
 class MessageContainer extends React.Component {
@@ -15,7 +15,7 @@ class MessageContainer extends React.Component {
 
         return (
             <div>
-                <Message />
+             
             </div>
         )
     }

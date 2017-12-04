@@ -5,10 +5,11 @@ export default class Message extends React.Component {
     constructor(props) {
         super(props);
     }
+
     componentDidMount() {
         console.log('baidu')
-
     }
+
     render() {
         let  warm = this.props.type;
         let message = this.props.message

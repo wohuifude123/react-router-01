@@ -115,10 +115,10 @@ export const Foundation = (WrappedComponent) => {
 
                 <div>
                     <div className={this.state.extendStyle.className} style={this.state.isRed ? divECharts:redStyle }>
-                        <WrappedComponent {...this.props} {...newProps}/>
+
                     </div>
 
-
+                    <WrappedComponent {...this.props} {...newProps}/>
                 </div>
 
             )

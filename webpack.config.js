@@ -11,8 +11,7 @@ var config  = {
             'react-dom',
             'react-router',
             'redux',
-            'react-redux',
-            'react-modal-dialog'
+            'react-redux'
         ]
     },
 

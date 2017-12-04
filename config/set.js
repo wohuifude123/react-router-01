@@ -16,7 +16,7 @@ var ImagesConfig = (function(){
         custom: true,
         // 轮播图片路径
         image01:{
-            url:'../../../../public/imagesConfig/custom/slide1.jpg'
+            url:'../../config/islide1.jpg'
         },
         image02:{
             url:'../../../../public/imagesConfig/custom/slide2.jpg'

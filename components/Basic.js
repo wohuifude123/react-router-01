@@ -13,9 +13,10 @@ import Repos from '../modules/Repos'
 import Goodbye from './advanced/goodbye'
 import Welcome from './advanced/welcome'
 import BarAA from './bar01/barAA'
-import MessageContainer from './dialog/'
-
 import AbbottTest from './container01/AbbottTest'
+import ContainerCommon from './container01/ContainerCommon'
+import MessageContainer from './container01/MessageContainer'
+
 
 class Basic extends React.Component {
 
@@ -92,8 +93,10 @@ class Basic extends React.Component {
                     <Route path="/god" component={Goodbye}/>
                     <Route path="/wel" component={Welcome}/>
                     <Route path="/baraa" component={BarAA}/>
-                    <Route path="/age" component={MessageContainer}/>
+
                     <Route path="/test01" component={AbbottTest}/>
+                    <Route path="/cc" component={ContainerCommon}/>
+                    <Route path="/age" component={MessageContainer}/>
 
                 </Switch>
             </HashRouter>
